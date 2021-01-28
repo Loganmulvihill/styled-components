@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Button from "./shared/button";
 
 const Wrapper = styled.div`
   display: flex;
@@ -22,7 +23,12 @@ const Sidebar = styled.div`
 const Article = () => {
   return (
     <Wrapper>
-      <MainContent>Main Content</MainContent>
+      <MainContent>
+        Main Content
+        <p>
+          <Button>Click Me!</Button>
+        </p>
+      </MainContent>
       <Sidebar>Sidebar</Sidebar>
     </Wrapper>
   );
