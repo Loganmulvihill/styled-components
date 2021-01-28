@@ -7,14 +7,16 @@ const Wrapper = styled.div`
 `;
 
 const MainContent = styled.div`
-  background-color: blue;
+  background-color: ${(props) => props.theme.freeSpeechBlue};
   flex: 1;
 `;
 
 const Sidebar = styled.div`
-  background-color: red;
+  background-color: ${(props) => props.theme.nobel};
+  color: white;
   flex: 0 auto;
   width: 200px;
+  padding: 10px;
 `;
 
 const Article = () => {
