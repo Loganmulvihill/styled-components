@@ -26,7 +26,9 @@ const Article = () => {
       <MainContent>
         Main Content
         <p>
+          <Button size="small">Click Me!</Button>
           <Button>Click Me!</Button>
+          <Button size="large">Click Me!</Button>
         </p>
       </MainContent>
       <Sidebar>Sidebar</Sidebar>
