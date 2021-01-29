@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "./shared/button";
+import HeaderTwo from "./HeaderTwo";
 
 const Wrapper = styled.div`
   display: flex;
@@ -25,6 +26,7 @@ const Article = () => {
     <Wrapper>
       <MainContent>
         Main Content
+        <HeaderTwo>I am a header</HeaderTwo>
         <p>
           <Button size="small">Click Me!</Button>
           <Button>Click Me!</Button>
