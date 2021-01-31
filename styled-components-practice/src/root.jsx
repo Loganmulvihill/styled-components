@@ -8,6 +8,7 @@ const Heading = styled.h1`
   text-align: center;
   padding: 10px;
   border-radius: 5px;
+  background-color: turquoise;
 `;
 
 const Root = () => {
