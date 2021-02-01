@@ -7,7 +7,7 @@ const Heading = styled.h1`
   color: white;
   text-align: center;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 5px solid white;
   background-color: turquoise;
 `;
 
