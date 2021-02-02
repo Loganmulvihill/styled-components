@@ -18,7 +18,7 @@ const Sidebar = styled.div`
   color: white;
   flex: 0 auto;
   width: 200px;
-  padding: 10px;
+  padding: 10px solid blue;
 `;
 
 const Article = () => {
